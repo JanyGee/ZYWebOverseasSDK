@@ -21,6 +21,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
+    //以下是demo测试参数，不能用做出包
     //网游sdk
     [[ZYWebSDKManager shareZYWebSDKManager] initWithGameKey:@"9BC654719A4729440705596B13EF1936" promoteID:@"900035" gameAppID:@"10032"];
     
