@@ -13,12 +13,10 @@
 		2A7D52A122C499AF00542E3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A7D52A022C499AF00542E3F /* Assets.xcassets */; };
 		2A7D52A422C499AF00542E3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A7D52A222C499AF00542E3F /* LaunchScreen.storyboard */; };
 		2A7D52A722C499AF00542E3F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A7D52A622C499AF00542E3F /* main.m */; };
-		2A92EAA422FD0DA600E93797 /* ZYWebSDKBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2A92EAA322FD0DA600E93797 /* ZYWebSDKBundle.bundle */; };
 		2ADFAE8F23014368005F9E45 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ADFAE8E23014367005F9E45 /* LocalAuthentication.framework */; };
 		2ADFAE9123014371005F9E45 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ADFAE9023014371005F9E45 /* SafariServices.framework */; };
 		2ADFAE932301437A005F9E45 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ADFAE922301437A005F9E45 /* SystemConfiguration.framework */; };
 		2ADFB1C023016A7C005F9E45 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ADFB1BF23016A7C005F9E45 /* UIKit.framework */; };
-		2AE5628A2306387600014D75 /* ZYWebSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AE562892306387600014D75 /* ZYWebSDK.framework */; };
 		A85DB2852299CDB2C07E2094 /* Pods_ZYWebSDKDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DF9B07D8969E63F60AC128E /* Pods_ZYWebSDKDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -47,7 +45,6 @@
 		2A7D52A322C499AF00542E3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A7D52A522C499AF00542E3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A7D52A622C499AF00542E3F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2A92EAA322FD0DA600E93797 /* ZYWebSDKBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ZYWebSDKBundle.bundle; sourceTree = "<group>"; };
 		2ADFAE8E23014367005F9E45 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
 		2ADFAE9023014371005F9E45 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
 		2ADFAE922301437A005F9E45 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
@@ -60,7 +57,6 @@
 		2ADFB1BB23016A6E005F9E45 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		2ADFB1BD23016A75005F9E45 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		2ADFB1BF23016A7C005F9E45 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		2AE562892306387600014D75 /* ZYWebSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ZYWebSDK.framework; sourceTree = "<group>"; };
 		7C86B37ABEF33BE45F4656B9 /* Pods-ZYWebSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYWebSDKDemo.debug.xcconfig"; path = "Target Support Files/Pods-ZYWebSDKDemo/Pods-ZYWebSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		7DF9B07D8969E63F60AC128E /* Pods_ZYWebSDKDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZYWebSDKDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -74,7 +70,6 @@
 				2ADFAE932301437A005F9E45 /* SystemConfiguration.framework in Frameworks */,
 				2ADFAE9123014371005F9E45 /* SafariServices.framework in Frameworks */,
 				2ADFAE8F23014368005F9E45 /* LocalAuthentication.framework in Frameworks */,
-				2AE5628A2306387600014D75 /* ZYWebSDK.framework in Frameworks */,
 				A85DB2852299CDB2C07E2094 /* Pods_ZYWebSDKDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -103,8 +98,6 @@
 		2A7D529622C499AD00542E3F /* ZYWebSDKDemo */ = {
 			isa = PBXGroup;
 			children = (
-				2AE562892306387600014D75 /* ZYWebSDK.framework */,
-				2A92EAA322FD0DA600E93797 /* ZYWebSDKBundle.bundle */,
 				2A7D529722C499AD00542E3F /* AppDelegate.h */,
 				2A7D529822C499AD00542E3F /* AppDelegate.m */,
 				2A7D529A22C499AD00542E3F /* ViewController.h */,
@@ -210,7 +203,6 @@
 			files = (
 				2A7D52A422C499AF00542E3F /* LaunchScreen.storyboard in Resources */,
 				2A7D52A122C499AF00542E3F /* Assets.xcassets in Resources */,
-				2A92EAA422FD0DA600E93797 /* ZYWebSDKBundle.bundle in Resources */,
 				2A7D529F22C499AD00542E3F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

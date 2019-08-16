@@ -6,6 +6,7 @@ target 'ZYWebSDKDemo' do
   use_frameworks!
 
   # Pods for ZYWebSDKDemo
+pod 'ZYWebOverseasSDK'
 pod 'GoogleSignIn', '~> 4.4.0'
 pod 'FBSDKLoginKit'
 end
