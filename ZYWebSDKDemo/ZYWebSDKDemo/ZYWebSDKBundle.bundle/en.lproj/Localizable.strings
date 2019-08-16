@@ -1,0 +1,177 @@
+/*
+ Localizable.strings
+ ZYWebSDKDemo
+ 
+ Created by zhangyu on 2019/8/6.
+ Copyright © 2019 Octopus. All rights reserved.
+ */
+"pull_refresh" = "Slide down to reload";
+"loosen_refresh" = "Release to reload";
+"refreshing" = "Data refreshing...";
+"push_load_more" = "Slide up to reload";
+"loosen_refresh_more" = "Release to reload more";
+"loading_more_data" = "Retrieving more data...";
+"finish_load" = "Loading completed";
+
+"no_net" = "Network not available";
+"request_rime_out" = "Network time-out";
+"alert" = "Alert";
+"ok" = "Confirm";
+"try_again" = "Retry";
+
+"auton_login" = "Automatic login in progress...";
+"login" = "Log in ";
+"pwd_no_null" = "Passwords are empty";
+"account_login" = "Account login";
+"pls_input_account" = "Please enter your account";
+"account_no_null" = "Account is empty";
+"ple_input_pwd" = "Please enter your password";
+"forget_pwd" = "Forgot passwords？";
+"regist" = "Register";
+"cus_login" = "Guest login";
+
+"account_reg" = "Register";
+"pls_account_del" = "*Please enter your account (letters, numbers or email address)";
+"pwd_limit" = "*Password:6 to 30 characters consists of upper and lower cased letters or Arabic numbers ";
+"comfirm_pwd" = "Confirm your password";
+"pwd_dif" = "*Passwords not matched";
+"read_ag" = "Read and agree";
+"user_pro" = "《Registration Policy》";
+"pls_agree_pro" = "*Please confirm your agreement to the Registration Policy";
+"one_login" = "One Click login";
+
+"user_pro_del" = "User Agreement ";
+"game_pro" = "Privacy Policy";
+"game_use" = "Terms and Conditions of Use";
+"recive" = "Accept";
+
+"time_down" = "seconds";
+"get_code" = "Send code";
+"phone_reg" = "Phone Number Registration";
+"pls_input_phone" = "Please enter your phone number";
+"pls_right_phone" = "*Please enter a correct phone number";
+"pls_code" = "Please enter the code";
+"word_reg" = "Letters account register";
+
+"charge_record" = "Transaction history";
+"no_data" = "No data";
+
+"init_state" = "Data initialized";
+"charge_success" = "Transaction completed";
+"order_dul" = "Duplicated transaction";
+"verify_fail" = "Verification failure";
+"charge_fail" = "Transaction failed.";
+"no_res" = "No response";
+
+"pre_step" = "Back";
+"safe_email" = "Email Address";
+"binded_email" = "Linked Email Address";
+"ple_input_email" = "*Please enter a correct email address";
+"pls_bind_email" = "Please enter an email address to link";
+"safe_phone" = "Phone Number";
+"binded_phone" = "Linked Phone Number";
+"pls_bind_phone" = "Please enter a phone number to link";
+"safe_center" = "Safe center";
+"person_verify" = "Identity Verification";
+"compelet_verify" = "Verification completed.";
+"pls_login_pwd" = "Please enter your password";
+"update_bind" = "Update";
+"pls_input_email" = "Please enter an email address";
+"next" = "Next";
+"pls_login_pwd_star" = "*Please enter your password";
+
+"update_pwd" = "Update password";
+"pls_input_original_pwd" = "Please enter your current password";
+"pls_input_star" = "*Please enter your current password";
+"pls_input_new_pwd" = "Please enter a new password";
+"comfirm_new_pwd" = "Please confirm your new password";
+"diffrent_pwd" = "*New passwords not matched";
+
+"update_bind_pwd" = "Update linked phone number";
+"setted" = "Updated";
+
+"account" = "Account";
+"not_set" = "Not set";
+"person_center" = "Account Management";
+"update_bind_email" = "Update linked email address";
+"back_game" = "Back to game";
+
+"custom_account" = "Guest account";
+"custom_pwd" = "Guest password";
+"custom_alert" = "This is a recovery code for guest accounts. To secure your accounts, please upgrade immediately.";
+
+"code_sended" = "*The code has been sent.";
+"pls_code_star" = "*Please enter the verification code.";
+"forget_password" = "Forgot password";
+"pls_email" = "Please enter your email address";
+"pls_email_phone_star" = "*Please enter a correct email address";
+"pls_input_pwd_again" = "Please enter your password again";
+
+"network_bad" = "Internet too slow, please try again later.";
+"pls_check_net" = "Please check your internet connection.";
+"pls_login" = "Please log in";
+"no_parameter" = "No transaction data found";
+"change_cancel" = "Transaction canceled";
+"no_fine_product" = "Items not found";
+"account_no_login" = "No account to log out";
+"no_bind_parameter" = "No linked data found";
+"no_sub_parameter" = "No submission data found";
+"parameter_wrong" = "Data error";
+"update_pwd_success" = "Password updated";
+"bind_success" = "Linked successfully";
+"security_pro" = "General Privacy Policy";
+"other_login" = "Other login:";
+
+//服务器响应code对应解释
+"200" = "Succeeded";
+"500" = "Sever error";
+"404" = "Sever error";
+"0010" = "Upload data invalid";
+"600" = "Datas are empty";
+
+"101" = "Existing user";
+"102" = "Account or password not correct";
+"104" = "Token invalid";
+"103" = "Update failed";
+"105" = "User not found";
+"106" = "User account not linked";
+"107" = "Current and new password not matched";
+"108" = "User name not correct";
+"109" = "Current password not correct";
+
+"502" = "Please confirm submitted appkey";
+"503" = "Signature verification failed";
+"504" = "Datas not fully submitted";
+
+"113" = "Email address linked";
+
+
+"201" = "Duplicated merchandise transaction ";
+"202" = "WAP transaction error";
+
+"1001" = "Phone number not valid";
+"1002" = "Phone number in use";
+"1003" = "Code expired";
+"1004" = "User ID error";
+"1005" = "Phone number error";
+"1006" = "Transaction cannot be made";
+"1007" = "Items not found";
+"1008" = "User has been blocked";
+"1009" = "Items ID error";
+"1010" = "Items not approved";
+"1011" = "Items submitted for approval";
+
+"1013" = "Transaction invalid.";
+"1014" = "Transaction processed";
+"1015" = "Transaction not found";
+"1016" = "Please enter a correct email address";
+"1017" = "Cannot be linked";
+"1018" = "Method not public";
+"1019" = "Failed to verify login info";
+"1020" = "Method not operated";
+"1021" = "Payment method not found";
+"1022" = "Price error";
+"1023" = "Payment failed";
+"1024" = "Payment method invalid";
+"1025" = "Email address error";
+"1026" = "Verification failed";
