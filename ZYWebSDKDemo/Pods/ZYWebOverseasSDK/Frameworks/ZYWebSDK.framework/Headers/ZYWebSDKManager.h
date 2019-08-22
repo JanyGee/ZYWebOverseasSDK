@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 
 #define SupportFacebookLogin 1//1:支持Facebook登录 0:不支持
-#define SupportGoogleLogin 1//1:支持Google登录 0:不支持
+#define SupportGoogleLogin 0//1:支持Google登录 0:不支持
 
 NS_ASSUME_NONNULL_BEGIN
 
