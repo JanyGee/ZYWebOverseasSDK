@@ -20,6 +20,7 @@
 "try_again" = "Retry";
 
 "auton_login" = "Automatic login in progress...";
+"cancel_auton_login" = "Cancel";
 "login" = "Log in ";
 "pwd_no_null" = "Passwords are empty";
 "account_login" = "Account login";
