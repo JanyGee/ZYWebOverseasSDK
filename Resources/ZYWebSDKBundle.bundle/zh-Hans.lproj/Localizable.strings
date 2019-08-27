@@ -82,6 +82,7 @@
 "pls_login_pwd_star" = "*请输入登录密码";
 
 "update_pwd" = "修改密码";
+"update_pwd_title" = "修改密码";
 "pls_input_original_pwd" = "输入原始密码";
 "pls_input_star" = "*请输入原密码";
 "pls_input_new_pwd" = "输入新密码";

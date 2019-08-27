@@ -27,7 +27,7 @@
 "pls_input_account" = "Please enter your account";
 "account_no_null" = "Account is empty";
 "ple_input_pwd" = "Please enter your password";
-"forget_pwd" = "Forgot passwords？";
+"forget_pwd" = "Forgot?";
 "regist" = "Register";
 "cus_login" = "Guest login";
 
@@ -81,20 +81,21 @@
 "next" = "Next";
 "pls_login_pwd_star" = "*Please enter your password";
 
-"update_pwd" = "Update password";
+"update_pwd" = "Update pwd";
+"update_pwd_title" = "Update password";
 "pls_input_original_pwd" = "Please enter your current password";
 "pls_input_star" = "*Please enter your current password";
 "pls_input_new_pwd" = "Please enter a new password";
 "comfirm_new_pwd" = "Please confirm your new password";
 "diffrent_pwd" = "*New passwords not matched";
 
-"update_bind_pwd" = "Update linked phone number";
+"update_bind_pwd" = "Binding phone";
 "setted" = "Updated";
 
 "account" = "Account";
 "not_set" = "Not set";
 "person_center" = "Account Management";
-"update_bind_email" = "Update linked email address";
+"update_bind_email" = "Binding email";
 "back_game" = "Back to game";
 
 "custom_account" = "Guest account";
