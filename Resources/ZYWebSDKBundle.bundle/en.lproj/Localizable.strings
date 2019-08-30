@@ -18,6 +18,7 @@
 "alert" = "Alert";
 "ok" = "Confirm";
 "try_again" = "Retry";
+"init_fail" = "Initialization is not complete";
 
 "auton_login" = "Automatic login in progress...";
 "cancel_auton_login" = "Cancel";
