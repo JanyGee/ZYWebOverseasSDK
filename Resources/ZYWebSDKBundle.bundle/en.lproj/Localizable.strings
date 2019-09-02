@@ -125,6 +125,11 @@
 "security_pro" = "General Privacy Policy";
 "other_login" = "Other login:";
 
+"recharge_amount" = "amount";
+"recharge_type" = "type";
+"recharge_num" = "number";
+"recharge_state" = "state";
+
 //服务器响应code对应解释
 "200" = "Succeeded";
 "500" = "Sever error";

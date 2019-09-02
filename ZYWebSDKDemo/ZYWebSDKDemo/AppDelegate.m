@@ -41,9 +41,11 @@
             openURL:(NSURL *)url
             options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options {
     
-    return [[FBSDKApplicationDelegate sharedInstance] application:application
-                                                          openURL:url
-                                                          options:options];
+    [[FBSDKApplicationDelegate sharedInstance] application:application
+                                                   openURL:url
+                                                   options:options];
+    
+    return YES;
 }
 
 - (BOOL)application:(UIApplication *)application
