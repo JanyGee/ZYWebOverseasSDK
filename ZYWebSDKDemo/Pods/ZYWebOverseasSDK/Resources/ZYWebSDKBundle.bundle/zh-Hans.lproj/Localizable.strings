@@ -18,8 +18,10 @@
 "alert" = "提示";
 "ok" = "确定";
 "try_again" = "重试";
+"init_fail" = "没有完成初始化";
 
 "auton_login" = "自动登录中...";
+"cancel_auton_login" = "取消自动登录";
 "login" = "登录";
 "pwd_no_null" = "密码不能为空";
 "account_login" = "账号登录";
@@ -81,6 +83,7 @@
 "pls_login_pwd_star" = "*请输入登录密码";
 
 "update_pwd" = "修改密码";
+"update_pwd_title" = "修改密码";
 "pls_input_original_pwd" = "输入原始密码";
 "pls_input_star" = "*请输入原密码";
 "pls_input_new_pwd" = "输入新密码";
@@ -122,6 +125,11 @@
 "security_pro" = "隐私协议";
 "other_login" = "其他登录方式:";
 
+"recharge_amount" = "充值金额";
+"recharge_type" = "充值类型";
+"recharge_num" = "交易流水";
+"recharge_state" = "充值状态";
+
 //服务器响应code对应解释
 "200" = "成功";
 "500" = "服务器异常";
@@ -144,7 +152,6 @@
 "504" = "参数不完整";
 
 "113" = "邮箱已绑定";
-
 
 "201" = "商户订单重复";
 "202" = "WAP游戏订单错误";

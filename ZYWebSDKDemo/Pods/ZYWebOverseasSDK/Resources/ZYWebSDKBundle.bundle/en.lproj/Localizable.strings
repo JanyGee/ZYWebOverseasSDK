@@ -18,15 +18,17 @@
 "alert" = "Alert";
 "ok" = "Confirm";
 "try_again" = "Retry";
+"init_fail" = "Initialization is not complete";
 
 "auton_login" = "Automatic login in progress...";
+"cancel_auton_login" = "Cancel";
 "login" = "Log in ";
 "pwd_no_null" = "Passwords are empty";
 "account_login" = "Account login";
 "pls_input_account" = "Please enter your account";
 "account_no_null" = "Account is empty";
 "ple_input_pwd" = "Please enter your password";
-"forget_pwd" = "Forgot passwords？";
+"forget_pwd" = "Forgot?";
 "regist" = "Register";
 "cus_login" = "Guest login";
 
@@ -80,20 +82,21 @@
 "next" = "Next";
 "pls_login_pwd_star" = "*Please enter your password";
 
-"update_pwd" = "Update password";
+"update_pwd" = "Update pwd";
+"update_pwd_title" = "Update password";
 "pls_input_original_pwd" = "Please enter your current password";
 "pls_input_star" = "*Please enter your current password";
 "pls_input_new_pwd" = "Please enter a new password";
 "comfirm_new_pwd" = "Please confirm your new password";
 "diffrent_pwd" = "*New passwords not matched";
 
-"update_bind_pwd" = "Update linked phone number";
+"update_bind_pwd" = "Binding phone";
 "setted" = "Updated";
 
 "account" = "Account";
 "not_set" = "Not set";
 "person_center" = "Account Management";
-"update_bind_email" = "Update linked email address";
+"update_bind_email" = "Binding email";
 "back_game" = "Back to game";
 
 "custom_account" = "Guest account";
@@ -121,6 +124,11 @@
 "bind_success" = "Linked successfully";
 "security_pro" = "General Privacy Policy";
 "other_login" = "Other login:";
+
+"recharge_amount" = "amount";
+"recharge_type" = "type";
+"recharge_num" = "number";
+"recharge_state" = "state";
 
 //服务器响应code对应解释
 "200" = "Succeeded";

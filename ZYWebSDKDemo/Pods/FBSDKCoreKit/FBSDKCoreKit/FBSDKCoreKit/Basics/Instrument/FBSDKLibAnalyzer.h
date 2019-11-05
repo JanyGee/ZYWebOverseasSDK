@@ -18,6 +18,15 @@
 
 #import <Foundation/Foundation.h>
 
-@interface FBSDKBasicUtility : NSObject
+NS_ASSUME_NONNULL_BEGIN
+
+@interface FBSDKLibAnalyzer : NSObject
+
++ (NSDictionary<NSString *, NSString *> *)getMethodsTable:(NSArray<NSString *> *)prefixes
+                                               frameworks:(NSArray<NSString *> * _Nullable)frameworks;
++ (nullable NSArray<NSString *> *)symbolicateCallstack:(NSArray<NSString *> *)callstack
+                                         methodMapping:(NSDictionary<NSString *,id> *)methodMapping;
 
 @end
+
+NS_ASSUME_NONNULL_END

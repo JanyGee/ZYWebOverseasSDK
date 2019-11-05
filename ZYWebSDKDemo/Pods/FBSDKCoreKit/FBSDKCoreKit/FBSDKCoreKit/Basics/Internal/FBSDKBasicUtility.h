@@ -18,8 +18,6 @@
 
 #import <Foundation/Foundation.h>
 
-#import "../FBSDKBasicUtility.h"
-
 NS_ASSUME_NONNULL_BEGIN
 
 /**
@@ -31,7 +29,7 @@ NS_ASSUME_NONNULL_BEGIN
 typedef id _Nullable (^FBSDKInvalidObjectHandler)(id object, BOOL *stop)
 NS_SWIFT_NAME(InvalidObjectHandler);
 
-@interface FBSDKBasicUtility (Internal)
+@interface FBSDKBasicUtility : NSObject
 
 /**
  Converts an object into a JSON string.
@@ -40,9 +38,9 @@ NS_SWIFT_NAME(InvalidObjectHandler);
  @param invalidObjectHandler Handles objects that are invalid, returning a replacement value or nil to ignore.
  @return A JSON string or nil if the object cannot be converted to JSON.
  */
-+ (NSString *)JSONStringForObject:(id)object
-                            error:(NSError *__autoreleasing *)errorRef
-             invalidObjectHandler:(nullable FBSDKInvalidObjectHandler)invalidObjectHandler;
++ (nullable NSString *)JSONStringForObject:(id)object
+                                     error:(NSError *__autoreleasing *)errorRef
+                      invalidObjectHandler:(nullable FBSDKInvalidObjectHandler)invalidObjectHandler;
 
 /**
  Sets an object for a key in a dictionary if it is not nil.
@@ -50,7 +48,9 @@ NS_SWIFT_NAME(InvalidObjectHandler);
  @param object The value to set.
  @param key The key to set the value for.
  */
-+ (void)dictionary:(NSMutableDictionary<NSString *, id> *)dictionary setObject:(id)object forKey:(id<NSCopying>)key;
++ (void)dictionary:(NSMutableDictionary<NSString *, id> *)dictionary
+         setObject:(nullable id)object
+            forKey:(nullable id<NSCopying>)key;
 
 /**
  Sets an object for a key in a dictionary if it is not nil.
@@ -70,7 +70,7 @@ setJSONStringForObject:(id)object
  @param array The array to add the object to.
  @param object The object to add to the array.
  */
-+ (void)array:(NSMutableArray *)array addObject:(id)object;
++ (void)array:(NSMutableArray *)array addObject:(nullable id)object;
 
 /**
  Converts a JSON string into an object
@@ -79,7 +79,7 @@ setJSONStringForObject:(id)object
  @return An NSDictionary, NSArray, NSString or NSNumber containing the object representation, or nil if the string
  cannot be converted.
  */
-+ (id)objectForJSONString:(NSString *)string error:(NSError *__autoreleasing *)errorRef;
++ (nullable id)objectForJSONString:(NSString *)string error:(NSError *__autoreleasing *)errorRef;
 
 /**
  Constructs a query string from a dictionary.
@@ -125,7 +125,7 @@ setJSONStringForObject:(id)object
  @param data The raw data.
  @return nil if unable to gzip the data, otherwise gzipped data.
  */
-+ (NSData *)gzip:(NSData *)data;
++ (nullable NSData *)gzip:(NSData *)data;
 
 + (NSString *)anonymousID;
 + (NSString *)persistenceFilePath:(NSString *)filename;

@@ -1,0 +1,6 @@
+framework module ZYWebSDKFBKit {
+  umbrella header "ZYWebSDKFBKit.h"
+
+  export *
+  module * { export * }
+}

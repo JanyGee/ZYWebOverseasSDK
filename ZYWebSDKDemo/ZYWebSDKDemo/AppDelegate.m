@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import <ZYWebSDK/ZYWebSDKManager.h>
 #import <FBSDKCoreKit/FBSDKCoreKit.h>
+#import <ZYWebSDKFBKit/ZYWebSDKFBKit.h>
 
 #import <GoogleSignIn/GoogleSignIn.h>
 @interface AppDelegate ()
@@ -26,6 +27,7 @@
     [[ZYWebSDKManager shareZYWebSDKManager] initWithGameKey:@"9BC654719A4729440705596B13EF1936" promoteID:@"900035" gameAppID:@"10032"];
     
     //Facebook
+    [ZYWebSDKFBManager shareZYWebSDKFB];
     [[FBSDKApplicationDelegate sharedInstance] application:application
                              didFinishLaunchingWithOptions:launchOptions];
     [FBSDKSettings setAppID:@"3065296300163939"];
