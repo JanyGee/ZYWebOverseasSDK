@@ -23,10 +23,10 @@
 "auton_login" = "自動登錄中...";
 "cancel_auton_login" = "取消自動登錄";
 "login" = "登錄";
-"pwd_no_null" = "密碼不能為空";
+"pwd_no_null" = "*密碼不能為空";
 "account_login" = "賬號登錄";
 "pls_input_account" = "請輸入賬號";
-"account_no_null" = "賬號不能為空";
+"account_no_null" = "*賬號不能為空";
 "ple_input_pwd" = "請輸入密碼";
 "forget_pwd" = "忘記密碼？";
 "regist" = "註冊";
@@ -81,6 +81,7 @@
 "pls_input_email" = "請輸入郵箱";
 "next" = "下壹步";
 "pls_login_pwd_star" = "*請輸入登錄密碼";
+"bindle_user" = "綁定用戶";
 
 "update_pwd" = "修改密碼";
 "update_pwd_title" = "修改密碼";

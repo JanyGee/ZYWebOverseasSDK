@@ -24,13 +24,17 @@
     
     //以下是demo测试参数，不能用做出包
     //网游sdk
-    [[ZYWebSDKManager shareZYWebSDKManager] initWithGameKey:@"9BC654719A4729440705596B13EF1936" promoteID:@"900035" gameAppID:@"10032"];
+    [[ZYWebSDKManager shareZYWebSDKManager] initWithGameKey:@"C79DBA548893C36776D0660B57D30CD5" promoteID:@"900035" gameAppID:@"10128" success:^{
+        
+    } fail:^{
+        
+    }];
     
     //Facebook
     [ZYWebSDKFBManager shareZYWebSDKFB];
     [[FBSDKApplicationDelegate sharedInstance] application:application
                              didFinishLaunchingWithOptions:launchOptions];
-    [FBSDKSettings setAppID:@"3065296300163939"];
+    [FBSDKSettings setAppID:@"373216830265516"];
     
     //谷歌登录
     [GIDSignIn sharedInstance].clientID = @"744563823552-ke4sv6mcl32ahd8jjs73334r7kgfsfue.apps.googleusercontent.com";

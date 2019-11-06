@@ -23,10 +23,10 @@
 "auton_login" = "Automatic login in progress...";
 "cancel_auton_login" = "Cancel";
 "login" = "Log in ";
-"pwd_no_null" = "Passwords are empty";
+"pwd_no_null" = "*Passwords are empty";
 "account_login" = "Account login";
 "pls_input_account" = "Please enter your account";
-"account_no_null" = "Account is empty";
+"account_no_null" = "*Account is empty";
 "ple_input_pwd" = "Please enter your password";
 "forget_pwd" = "Forgot?";
 "regist" = "Register";
@@ -81,6 +81,7 @@
 "pls_input_email" = "Please enter an email address";
 "next" = "Next";
 "pls_login_pwd_star" = "*Please enter your password";
+"bindle_user" = "Bind user";
 
 "update_pwd" = "Update pwd";
 "update_pwd_title" = "Update password";

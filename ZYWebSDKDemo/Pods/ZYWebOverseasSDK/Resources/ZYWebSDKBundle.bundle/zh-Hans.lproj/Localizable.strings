@@ -23,10 +23,10 @@
 "auton_login" = "自动登录中...";
 "cancel_auton_login" = "取消自动登录";
 "login" = "登录";
-"pwd_no_null" = "密码不能为空";
+"pwd_no_null" = "*密码不能为空";
 "account_login" = "账号登录";
 "pls_input_account" = "请输入账号";
-"account_no_null" = "账号不能为空";
+"account_no_null" = "*账号不能为空";
 "ple_input_pwd" = "请输入密码";
 "forget_pwd" = "忘记密码？";
 "regist" = "注册";
@@ -81,6 +81,7 @@
 "pls_input_email" = "请输入邮箱";
 "next" = "下一步";
 "pls_login_pwd_star" = "*请输入登录密码";
+"bindle_user" = "绑定用户";
 
 "update_pwd" = "修改密码";
 "update_pwd_title" = "修改密码";
