@@ -7,6 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "ZYSDKCode.h"
+#import "ZYSDKConstKey.h"
+#import <WebKit/WebKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -35,7 +38,10 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  弹出登录界面
 
- @param success 成功回调 userid：用户id token：token验证
+ @param success 返回字段说明
+ userChannel：0=默认渠道，3001=微信，3002=QQ，3003=Google，3004=Facebook;
+ userid：用户id
+ token：token验证
  @param fail 失败回调
  */
 - (void)loginSuccess:(void(^)(NSDictionary *dic))success failRes:(void(^)(void))fail;
@@ -119,6 +125,8 @@ NS_ASSUME_NONNULL_BEGIN
  隐藏悬浮按钮
  */
 - (void)hiddenFlaotView;
+
+- (void)otherLoginWithID:(NSString *)otherId email:(NSString *)email name:(NSString *)name loginType:(ZYWebSDKLoginType)type;
 @end
 
 NS_ASSUME_NONNULL_END
